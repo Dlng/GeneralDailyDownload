@@ -10,7 +10,9 @@ Built in Phantomjs, Casperjs, C# and XSLT-FO.
 
 
 Functionality:
-HTML data fetched by casperjs would be sent back to C# command line program, in which task settings would be loaded from a config 
+HTML data fetched by casperjs would be sent back to C# command line program, 
+
+in which task settings would be loaded from a config 
 
 file, and data would be filtered (invalid xml syntax),
 
