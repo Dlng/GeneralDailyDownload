@@ -1,0 +1,810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script language="JavaScript">
+   var g_HttpRelativeWebRoot = "/iimwcm/";
+   var SSContributor = false;
+   var SSForceContributor = false;
+   var SSHideContributorUI = false;
+   var ssUrlPrefix   = "/SG/";
+</script>
+<script id="SSContributorScript" nodeid="SG_Funds" websiteid="SG" layouttype="hcsp" language="javascript" type="text/javascript" src="/iimwcm/websites/SG/contributor.js"></script>
+<script id="SSNavigationFunctionsScript" language="javascript" type="text/javascript" src="/iimwcm/websites/SG/sitenavigationfunctions.js"></script>
+<script id="SSNavigationScript" language="javascript" type="text/javascript" src="/iimwcm/websites/SG/sitenavigation.js"></script>
+<script language="JavaScript">
+   var g_navNode_Path = new Array();
+      g_navNode_Path[0] = 'SG_Home';
+      g_navNode_Path[1] = 'SG_Funds';
+   var g_ssSourceNodeId = "SG_Funds";
+   var g_ssSourceSiteId = "SG";
+   var g_strLanguageId = "en";
+</script>
+<script type="text/javascript" src="/iimwcm/resources/sitestudio/ssajax/ssajax.js"></script>
+
+				
+		<script id="ssInfo" type="text/xml" warning="DO NOT MODIFY!">
+  			<ssinfo>
+      			<fragmentinstance  id="fragment1" fragmentid="UCM_UTIL" library="server:UCM_UTILITIES_LIB">        			
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment2" fragmentid="ISE_BANNER_TITLE_LOGO" library="server:ISE_LAYOUT_LIB">        			
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment3" fragmentid="ISE_SERVICE_LINKS" library="server:ISE_NAVIGATION_LIB">        		
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment4" fragmentid="ISE_SEARCH_QUICK" library="server:ISE_SEARCH_LIB">        			
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment5" fragmentid="ISE_MAIN_MENU" library="server:ISE_NAVIGATION_LIB">        			
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment6" fragmentid="ISE_FUND_COUNTRY" library="server:ISE_FUNDS_LIB">        			
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment8" fragmentid="ISE_FUND_CRITERIA" library="server:ISE_FUNDS_LIB">        
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment9" fragmentid="ISE_FUND_DOWNLOAD" library="server:ISE_FUNDS_LIB">        
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment10" fragmentid="ISE_FUND_PERFORMANCE_DIAGRAM" library="server:ISE_FUNDS_LIB">        
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment11" fragmentid="ISE_FUND_PERFORMANCE_DIAGRAM" library="server:ISE_FUNDS_LIB">        
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment12" fragmentid="ISE_FUND_CRITERIA" library="server:ISE_FUNDS_LIB">        
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment13" fragmentid="ISE_FUNDLIST" library="server:ISE_FUNDS_LIB">        
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment14" fragmentid="ISE_FUNDLIST" library="server:ISE_FUNDS_LIB">        
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment15" fragmentid="ISE_FUNDLIST" library="server:ISE_FUNDS_LIB">        
+      			</fragmentinstance>
+      			<fragmentinstance  id="fragment16" fragmentid="ISE_FOOTER_MENU" library="server:ISE_NAVIGATION_LIB">
+              	</fragmentinstance>
+      			<fragmentinstance  id="fragment17" fragmentid="ISE_PAGE_TITLE" library="server:ISE_LAYOUT_LIB">
+      			</fragmentinstance>
+			</ssinfo>
+  		</script>
+  		
+		<link title="Stylesheet" media="screen" href="/file/ISE_RESET_CSS" type="text/css" rel="stylesheet">
+  		<link title="Stylesheet" media="screen" href="/file/ISE_DEFAULT_CSS" type="text/css" rel="stylesheet">
+  		<link title="Stylesheet" media="screen" href="/file/ISE_STYLE_CSS" type="text/css" rel="stylesheet">
+  		<link title="Stylesheet" media="screen" href="/file/ISE_CALENDAR_CSS" type="text/css" rel="stylesheet">
+  		<link title="Stylesheet" media="print" href="/file/ISE_PRINT_CSS" type="text/css" rel="stylesheet">
+  		<link href="/file/ISE_FAVICON_ICO" type="image/x-icon" rel="Shortcut Icon">
+  		<link href="/file/ISE_FAVICON_ICO" type="image/x-icon" rel="Icon">  		
+  		<script src="/file/ISE_RESET_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_FUND_MAIN_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_ORACLE_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_DEFAULT_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_MENU_JS" type="text/javascript"></script>  		
+  		<script src="/file/ISE_CALENDAR_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_CALENDAR_EN_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_CALENDAR_SETUP_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_FUND_TAB_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_FUND_HOVER_JS" type="text/javascript"></script>
+  		<script src="/file/ISE_FORM_VALIDATION_JS" type="text/javascript"></script>
+  		<script type="text/javascript">
+  			function openPage(FundUrl) 
+				{ 
+					document.location.href = FundUrl; 
+				}
+			function ChangeClass() {
+				var NAME = document.getElementById("tabtwo")
+				NAME.className="tab active"			
+				var NAMEa = document.getElementById("tabone")
+				NAMEa.className="tab"
+			} 
+			function ChangeClass1() {
+				var NAME = document.getElementById("tabone")
+				NAME.className="tab active"			
+				var NAMEa = document.getElementById("tabtwo")
+				NAMEa.className="tab"
+			} 
+		</script>			
+  		<!-- SS_BEGIN_SNIPPET(fragment1,UCM_UTIL_HEAD)--><script type="text/javascript">var GB_ROOT_DIR = "/"+'iimwcm'+"/groups/public/documents/web_assets/";</script>
+<script src="/file/ISE_AJS_JS" type="text/javascript"></script>
+<script src="/file/ISE_AJS_FX_JS" type="text/javascript"></script>
+<script src="/file/ISE_GB_SCRIPTS_JS" type="text/javascript"></script>
+<script src="/file/ISE_JQUERY_JS" type="text/javascript"></script>
+<link href="/file/ISE_GB_STYLES_CSS" rel="stylesheet" type="text/css" media="all">   
+
+			<!-- SS_END_SNIPPET(fragment1,UCM_UTIL_HEAD)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment17,title)-->			<!-- SS_END_SNIPPET(fragment17,title)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment1,Comments)-->				
+			<!-- SS_END_SNIPPET(fragment1,Comments)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment2,Comments)-->				
+			<!-- SS_END_SNIPPET(fragment2,Comments)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment3,Comments)-->				
+			<!-- SS_END_SNIPPET(fragment3,Comments)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment4,Comments)-->				
+
+				
+			<!-- SS_END_SNIPPET(fragment4,Comments)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment5,Comments)-->				
+				
+			<!-- SS_END_SNIPPET(fragment5,Comments)-->  		
+  		<!-- SS_BEGIN_SNIPPET(fragment6,Get country)-->  		<script language="JavaScript">
+  			var j_choosen = 'SG' + '_' + 'Singapore'
+  			Set_Cookie('ISE_Country_cookie',j_choosen,'36500','/');
+  		</script>
+			<!-- SS_END_SNIPPET(fragment6,Get country)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment6,Comments)-->				
+
+				
+			<!-- SS_END_SNIPPET(fragment6,Comments)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment8,Comments)-->				
+
+				
+			<!-- SS_END_SNIPPET(fragment8,Comments)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment9,Comments)-->				
+				
+			<!-- SS_END_SNIPPET(fragment9,Comments)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment10,Comments)-->				
+				
+			<!-- SS_END_SNIPPET(fragment10,Comments)-->
+  		<!-- SS_BEGIN_SNIPPET(fragment11,Comments)-->				
+				
+			<!-- SS_END_SNIPPET(fragment11,Comments)-->
+		<!-- SS_BEGIN_SNIPPET(fragment12,Comments)-->				
+
+				
+			<!-- SS_END_SNIPPET(fragment12,Comments)-->		
+		<!-- SS_BEGIN_SNIPPET(fragment14,Comments)-->				
+			<!-- SS_END_SNIPPET(fragment14,Comments)-->
+		<!-- SS_BEGIN_SNIPPET(fragment15,Comments)-->				
+			<!-- SS_END_SNIPPET(fragment15,Comments)-->
+		<!-- SS_BEGIN_SNIPPET(fragment16,Comments)-->				
+				
+			<!-- SS_END_SNIPPET(fragment16,Comments)-->
+		<!-- SS_BEGIN_SNIPPET(fragment17,Comments)-->				
+
+
+				
+			<!-- SS_END_SNIPPET(fragment17,Comments)--><!-- SS_BEGIN_SNIPPET(fragment17,Window_title)--><title>Funds - ING Investment Management</title>
+				
+			<!-- SS_END_SNIPPET(fragment17,Window_title)-->
+
+  		<script src="/file/JQUERY_MIN" type="text/javascript"></script>		
+  		<script src="/file/JQUERY_DATATABLES_MIN" type="text/javascript"></script>
+
+	</head>
+	
+					  
+                        <body onload="fnShowHide(8);fnShowHide(9);fnShowHide(10);fnShowHide(11);fnShowHide(12);fnShowHide(13);if (location.href.indexOf('reload')==-1) location.replace(location.href+'?reload');">       
+		<!-- SS_BEGIN_SNIPPET(fragment1,UCM_UTIL_TOP)-->			<!-- SS_END_SNIPPET(fragment1,UCM_UTIL_TOP)-->
+  		<div class="wrapper">
+    		<div class="header">    			
+    			<!-- SS_BEGIN_SNIPPET(fragment2,Logo and banner)-->				  <div class="header_top clearfix">
+  <img src="/file/ISE_LOGO_ING_GIF" alt="ING">
+  <span class="title">INVESTMENT MANAGEMENT</span>
+  	
+  </div>
+
+ 
+ 
+ <script type="text/javascript">
+ $(document).ready(function() {
+  GB_show('Disclaimer', '/SG/MiFiDDisclaimer/index.htm');});
+  </script>
+     
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+try {
+  _uacct = "UA-1739651-1";
+  urchinTracker();
+} catch(x) {}
+</script>
+
+			<!-- SS_END_SNIPPET(fragment2,Logo and banner)-->    			
+				<div class="header_bot">              			
+					<!-- SS_BEGIN_SNIPPET(fragment3,Display Service links)-->				<div class="clear"></div>
+<div class="topmenu">
+  		<a href="/SG/" title="Home">Home</a>
+  					<span>|</span>
+  					<a href="/SG/Services/Contact/index.htm" title="Contact">Contact</a> 
+  					<span>|</span>
+  					<a href="/SG/Services/Glossary/index.htm" title="Glossary">Glossary</a> 
+  			<span>|</span>
+  			<a href="http://www.inginvestments.com" target="_blank" title="ING Investment Management">ING Investment Management</a> 
+  		<span>|</span>
+  		<a href="http://www.ing.com/" target="_blank" title="ING Group">ING Group</a>
+  			<span>|</span>
+  			<a onclick="window.open('/SG/OfficeFinder/','officefinder','width=682,height=468,scrollbars=no,toolbar=no,location=no')" href="#">Office Finder</a>  			
+	 
+	<span class="langs">
+	</span>
+</div>
+
+				
+			<!-- SS_END_SNIPPET(fragment3,Display Service links)-->
+					<!-- SS_BEGIN_SNIPPET(fragment4,Search Quick)-->	<div class="search">
+		<form id="searchQuick" action="/SG/Search/index.htm" method="get" accept-charset="utf-8">
+			<input type="text" name="searchTerm" id="quicksearch" class="input" onclick="this.value='';this.className='input write'" onfocus="this.select();" onblur="this.value=!this.value?'Type keyword':this.value;this.className='input';" value="Type keyword">
+			<input type="submit" value="Search" class="btnSearch">
+		</form>
+		<script type="text/javascript">
+			var frmvalidator  = new Validator("searchQuick");
+			frmvalidator.addValidation("quicksearch", "alnum_s_exc", "Alphanumeric error");
+		</script> 
+	</div>
+			<!-- SS_END_SNIPPET(fragment4,Search Quick)-->
+				</div>
+				<div class="clear"></div>
+				<!-- SS_BEGIN_SNIPPET(fragment5,Main_menu_horz)--><div class="horiz_nav">
+  <ul class="clearfix">
+    
+     
+       
+           
+           
+     
+    <li><a class="active" href="/SG/Funds/Fundinfo">Funds</a></li>
+               
+           
+           
+     
+           
+             
+           
+             
+           
+             
+    <li><a href="/SG/InvestmentServices/index.htm" onmouseover="openMenu(this,'menu_2',0,0);">Investment Services</a></li>
+               
+           
+           
+     
+           
+             
+           
+             
+           
+             
+           
+             
+           
+             
+    <li><a href="/SG/MarketCommentary/index.htm" onmouseover="openMenu(this,'menu_3',0,0);">Market Commentary</a></li>
+               
+           
+           
+     
+           
+             
+    <li><a href="/SG/Awards/index.htm" onmouseover="openMenu(this,'menu_4',0,0);">Awards</a></li>
+               
+           
+           
+     
+           
+             
+           
+             
+           
+             
+           
+             
+           
+             
+    <li><a href="/SG/AboutUs/index.htm" onmouseover="openMenu(this,'menu_5',0,0);">About Us</a></li>
+               
+           
+           
+     
+           
+             
+    <li class="last"><a href="/SG/Careers/index.htm" onmouseover="openMenu(this,'menu_6',0,0);">Careers</a></li>
+    	<li class="region">Singapore</li>
+  </ul>
+</div>
+
+				
+			<!-- SS_END_SNIPPET(fragment5,Main_menu_horz)-->  		
+    		</div>
+    		<!-- SS_BEGIN_SNIPPET(fragment5,Sub_menu_horz)-->	
+    
+	<div id="menu_1" class="dropdown">
+	
+    </div>
+	<div id="menu_2" class="dropdown">
+	
+    <span class="items"><a href="/SG/InvestmentServices/DistributorsAdvisors/index.htm" title="Distributors &amp; Advisors">Distributors &amp; Advisors</a>
+    	  
+  	
+    <span class="items"><a href="/SG/InvestmentServices/Institutionalclients/index.htm" title="Institutional Clients">Institutional Clients</a>
+    	  
+  	
+    <span class="items"><a href="/SG/InvestmentServices/Consultants/index.htm" title="Consultants">Consultants</a>
+    	  
+  	
+    </span></span></span></div>
+	<div id="menu_3" class="dropdown">
+	
+    <span class="items"><a href="/SG/MarketCommentary/FocusPoint/index.htm" title="Archive">Archive</a>
+    	  
+  	
+    <span class="items"><a href="/SG/MarketCommentary/Columns/index.htm" title="Columns">Columns</a>
+    	  
+  	
+    <span class="items"><a href="/SG/MarketCommentary/Marketscope/index.htm" title="Marketscope">Marketscope</a>
+    	  
+  	
+    <span class="items"><a href="/SG/MarketCommentary/Mindscope/index.htm" title="Mindscope">Mindscope</a>
+    	  
+  	
+    <span class="items"><a href="/SG/MarketCommentary/Webcast/index.htm" title="Webcast">Webcast</a>
+    	  
+  	
+    </span></span></span></span></span></div>
+	<div id="menu_4" class="dropdown">
+	
+    <span class="items"><a href="/SG/Awards/Awards/index.htm" title="Awards">Awards</a>
+    	  
+  	
+    </span></div>
+	<div id="menu_5" class="dropdown">
+	
+    <span class="items"><a href="/SG/AboutUs/Keyfacts/index.htm" title="Key Facts ING IM International">Key Facts ING IM International</a>
+    	  
+  	
+    <span class="items"><a href="/SG/AboutUs/Ourstrengths/index.htm" title="Our strengths">Our strengths</a>
+    	  
+  	
+    <span class="items"><a href="/SG/AboutUs/Ourpeople/index.htm" title="Our people">Our people</a>
+    	  
+  	
+    <span class="items"><a href="/SG/AboutUs/Corporateinformation/index.htm" title="Corporate information">Corporate information</a>
+    	  
+  	
+    <span class="items"><a href="/SG/AboutUs/Contact/index.htm" title="Contact">Contact</a>
+    	  
+  	
+    </span></span></span></span></span></div>
+	<div id="menu_6" class="dropdown">
+	
+    <span class="items"><a href="/SG/Careers/Careers/index.htm" title="Careers">Careers</a>
+    	  
+  	
+	
+</span></div>
+			<!-- SS_END_SNIPPET(fragment5,Sub_menu_horz)-->
+			<div class="container">				
+    			<div class="promo">
+    				<h1>Funds for<!-- SS_BEGIN_SNIPPET(fragment6,Choose_country)-->    Singapore
+			<!-- SS_END_SNIPPET(fragment6,Choose_country)--></h1>
+					<div class="panel">
+						<!-- SS_BEGIN_SNIPPET(fragment15,Filters)--><script type="text/javascript">
+var optionlists = new Array;
+document.write(optionlists.sort());
+optionlists = [
+"Type...|Category...|Region..." 
+,"||"
+
+	,"Alternatives|-|-"
+	,"Equity|Core|European Equity"
+	,"Equity|Core|Japan"
+	,"Equity|Core|US"
+	,"Equity|Core|World"
+	,"Equity|Emerging Markets|Asia"
+	,"Equity|Emerging Markets|Latin America"
+	,"Equity|Global and Opportunistic|Global Opportunities"
+	,"Equity|High Dividend|Emerging Markets"
+	,"Equity|High Dividend|Euro"
+	,"Equity|High Dividend|Europe"
+	,"Equity|High Dividend|Global"
+	,"Equity|High Dividend|US"
+	,"Equity|Sector|Banking and Insurance"
+	,"Fixed Income|Aggregate|Investment grade"
+	,"Fixed Income|Credit|Corporate USD"
+	,"Fixed Income|Credit|High Yield"
+	,"Fixed Income|Emerging Markets Debt|Asian Debt"
+	,"Fixed Income|Emerging Markets Debt|Hard Currency"
+	,"Fixed Income|Emerging Markets Debt|Local Currency"
+	,"Fixed Income|Government|-"
+	,"Real Estate|Global|-"
+]
+</script>
+<div name="selectForm" class="select-form"> 
+  <select id="fundtype" name="fundtype" onchange="FilterOptions(0); filterFundTable(this, 1);" style="visibility: visible; ">
+    
+  <option value="Type..." selected="">Type...</option><option value="" selected=""></option><option value="Alternatives" selected="">Alternatives</option><option value="Equity" selected="">Equity</option><option value="Fixed Income" selected="">Fixed Income</option><option value="Real Estate" selected="">Real Estate</option></select>
+  <select id="fundcategory" name="fundcategory" onchange="FilterOptions(1); filterFundTable(this, 2);" style="visibility: visible; ">
+    
+  <option value="Global">Global</option></select>
+  <select id="fundregion" name="fundregion" class="last" onchange="FilterOptions(2); filterFundTable(this, 3);" style="visibility: visible; ">
+    <option value="">Region...</option>
+  </select>
+</div>
+<form class="search-form" id="fundListSearch">
+<input type="text" name="fundSearchTerm" id="fundSearch" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Enter fund name or ISIN code':this.value;" value="Enter fund name or ISIN code" class="text" onkeyup="searchFundTable(this.value.toString())" onchange="searchFundTable(this.value.toString())"> 	
+</form>
+
+<script type="text/javascript">
+	var frmvalidator  = new Validator("fundListSearch");
+	frmvalidator.addValidation("fundSearch", "alnum_s_exc", "Alphanumeric error");
+</script>
+				
+			<!-- SS_END_SNIPPET(fragment15,Filters)-->
+					</div>
+    			</div>
+    			<div class="main-block" id="fundlistresultset">
+    				<!-- SS_BEGIN_SNIPPET(fragment15,Fund_Query)-->
+			<!-- SS_END_SNIPPET(fragment15,Fund_Query)-->
+    				<!-- SS_BEGIN_SNIPPET(fragment15,FUNDLIST)-->					
+		<div class="section">
+		<ul id="tabset" class="tabset">
+				 
+					<li><a href="#" class="tab active" id="tabone"><span>Overview</span></a></li> 
+		</ul><div class="pagingtop"><div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers" id="page_paginate" style="display: block; "><span class="first ui-corner-tl ui-corner-bl fg-button ui-button ui-state-default" id="page_first">First</span><span class="previous fg-button ui-button ui-state-default" id="page_previous">Previous</span><span><span class="fg-button ui-button ui-state-default">1</span><span class="fg-button ui-button ui-state-default">2</span><span class="fg-button ui-button ui-state-default ui-state-disabled">3</span></span><span class="next fg-button ui-button ui-state-default ui-state-disabled" id="page_next">Next</span><span class="last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default ui-state-disabled" id="page_last">Last</span></div></div> 							
+	</div>	
+	<div class="tab-content">
+		<div class="dataTables_wrapper" id="page_wrapper"><table class="sortable" id="page" style="width: 898px; ">
+			<thead>	
+				<!-- empty header row to get extra space between header and first row --> 
+				
+				<tr id="textheader"><th class="fund ui-state-default" rowspan="1" colspan="1" style="width: 426px; "><div class="DataTables_sort_wrapper">Fund<span class="css_right ui-icon ui-icon-triangle-1-n"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 63px; "><div class="DataTables_sort_wrapper">filter1<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 136px; "><div class="DataTables_sort_wrapper">filter2<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 127px; "><div class="DataTables_sort_wrapper">filter3<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 86px; "><div class="DataTables_sort_wrapper">isin<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="val ui-state-default" rowspan="1" colspan="1" style="width: 65px; "><div class="DataTables_sort_wrapper">Currency<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="price ui-state-default" rowspan="1" colspan="1" style="width: 76px; "><div class="DataTables_sort_wrapper">Price<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="datum ui-state-default" rowspan="1" colspan="1" style="width: 72px; "><div class="DataTables_sort_wrapper">Date<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="type ui-state-default" rowspan="1" colspan="1" style="width: 99px; "><div class="DataTables_sort_wrapper">Type<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr><tr class="emptyheader" id="emptyheader"><th class="fund" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="val" rowspan="1" colspan="1"></th><th class="price" rowspan="1" colspan="1"></th><th class="datum" rowspan="1" colspan="1"></th><th class="type" rowspan="1" colspan="1"></th></tr>				
+			</thead>
+					<tbody><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0577846446');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Hard Currency) (P Cap Hedged)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Hard Currency</td>
+						<td class="hidden">LU0577846446</td>							
+      					<td class="val">SGD</td>
+ 							<td class="price">10.14</td>
+ 							 
+								
+						<td class="datum">1/2/2013</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546915215');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Hard Currency) (X Cap Hedged)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Hard Currency</td>
+						<td class="hidden">LU0546915215</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">4566.40</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546916379');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Local Currency) (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Local Currency</td>
+						<td class="hidden">LU0546916379</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">60.66</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0577845711');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Local Currency) (P Cap) Hedged</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Local Currency</td>
+						<td class="hidden">LU0577845711</td>							
+      					<td class="val">SGD</td>
+ 							<td class="price">9.73</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546917773');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Euro (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Aggregate</td>						
+							<td class="hidden">Investment grade</td>
+						<td class="hidden">LU0546917773</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">515.63</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546916619');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Euromix Bond (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Government</td>						
+							<td class="hidden">-</td>
+						<td class="hidden">LU0546916619</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">170.70</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546916882');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Euromix Bond (X Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Government</td>						
+							<td class="hidden">-</td>
+						<td class="hidden">LU0546916882</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">168.29</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0529383092');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Europe High Yield (I Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Credit</td>						
+							<td class="hidden">High Yield</td>
+						<td class="hidden">LU0529383092</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">5743.54</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546920488');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund US Credit (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Credit</td>						
+							<td class="hidden">Corporate USD</td>
+						<td class="hidden">LU0546920488</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">1213.80</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr></tbody></table><div class="listing"><div class="dataTables_info" id="page_info">Showing 33 to 41 of 41 funds</div></div><div class="clear"></div></div>
+	</div>	
+			<!-- SS_END_SNIPPET(fragment15,FUNDLIST)-->    				
+				</div>
+				<div class="clear"></div>
+    		</div>    		
+    		<!-- SS_BEGIN_SNIPPET(fragment16,Display_Footer)--><div class="clear"></div>
+<div class="footer">
+     
+   <a title="Disclaimer" href="/SG/Legal/Disclaimer/index.htm">Disclaimer</a>
+  
+     
+   <a title="Security" href="/SG/Legal/Security/index.htm">Security</a>
+  
+     
+   <a title="Privacy Statement" href="/SG/Legal/PrivacyStatement/index.htm">Privacy Statement</a>
+    ©2001- 2014 
+    Co.Reg.No.199602506R. ING Investment Management Asia Pacific (Singapore) Ltd. ING Investment Management is part of NN Group N.V. NN Group N.V. is a publicly traded corporation, and it and its subsidiaries are currently using trademarks including the "ING" name and associated trademarks of ING Groep N.V. (ING Group) under license. All rights reserved.
+    
+     
+   <a title="Legal information" href="/SG/Legal/Legalinformation/index.htm">Legal information</a>
+  
+  
+<br>
+<br>
+
+</div>
+				
+			<!-- SS_END_SNIPPET(fragment16,Display_Footer)-->
+    		<script>
+				populateFilters();
+				sortSelect(document.getElementById("fundcategory"), true); value="Sort (Asc)";
+			</script>
+    	</div>
+  		<!-- SS_BEGIN_SNIPPET(fragment1,UCM_UTIL_BOTTOM)-->			<!-- SS_END_SNIPPET(fragment1,UCM_UTIL_BOTTOM)-->  		
+		<!-- SS_BEGIN_SNIPPET(fragment15,Fund_Table)-->	<script type="text/javascript">	
+
+    var oTable; //global variable for the table, to be able to access it outside the method    		
+    
+    <!-- Function that creates the Datatables table -->	
+    $(document).ready(function() {
+		<!-- Table functions, pagination etc -->				
+		oTable = $('#page').dataTable( {
+		
+		
+		
+			"aoColumnDefs": [  
+				{ "sType": "date", "aTargets" : [7,13] }				
+			]
+			
+			
+			
+			, "sPaginationType": "full_numbers"
+			, "bLengthChange": false
+			, "iDisplayLength": 16
+			, "bJQueryUI": true
+			, "sDom": '<"pagingtop"p>rt<"listing"i><"clear">'		
+			, "oLanguage": {
+					"sZeroRecords": "No matching funds found"
+					, "sInfo": "Showing _START_ to _END_ of _TOTAL_ funds"
+					, "sInfoEmpty": "Showing 0 to 0 of 0 funds"
+					, "sInfoFiltered": "(filtered from _MAX_ total funds)" 
+					, "oPaginate": {
+							"sFirst":    "First"
+							, "sPrevious": "Previous"
+							, "sNext":     "Next"
+							, "sLast":     "Last"
+						}
+				}
+			, "fnDrawCallback": function() {
+                <!-- code to hide pagination if 0 or 1 pages to display -->                  	    
+                if (Math.ceil((this.fnSettings().fnRecordsDisplay()) / this.fnSettings()._iDisplayLength) > 1)  {
+                        $(".dataTables_paginate").css("display", "block");	
+						$(".dataTables_length").css("display", "block");
+						$(".dataTables_filter").css("display", "block");						
+                	} else {
+                        $(".dataTables_paginate").css("display", "none");
+						$(".dataTables_length").css("display", "none");
+						$(".dataTables_filter").css("display", "none");
+                	}                 		                       		
+            }
+				
+		} );
+    });
+	
+	</script>
+	<script type="text/javascript">	
+	
+	<!-- move the top pagination elements outside the table top. -->
+	$(".pagingtop").ready(function(){
+			$(".pagingtop").insertAfter($("#tabset"));
+	}); 
+
+	<!-- move the bottom pagination elements outside the table bottom. -->
+	$(".pagingbottom").ready(function(){
+		$(".pagingbottom").insertAfter($("#tab-2"));				
+	}); 
+
+	<!-- switch the header rows. These are initially intentially put in the wrong order, because Datatables plugin binds -->
+	<!-- the sorting events to the lower header row, and we want it on the higher one. -->
+	$("#textheader").ready(function(){
+			$("#emptyheader").insertAfter($("#textheader"));
+	}); 
+
+	/*
+     * Purpose:  Filter fund table on the value of a select tag 
+ 		* Inputs:   object:obj - one of the select tags from the fund page
+     *           int:column - the id of the column to filter in the table
+ 		*/
+	function filterFundTable(obj, column) {
+	//alert("object ID ::"+obj.id );
+ 		if (obj != null && column != null && column >= 0) {			
+			if(obj.id == "fundtype") {			
+				var selectedValue = obj.options[obj.selectedIndex].value; //get the selected value 
+				//alert("selected value::"+obj.options[obj.selectedIndex].value ); 
+				//If selected value is the heading (contains ...) than show all
+				if(selectedValue.indexOf("...") != -1) {
+					oTable.fnFilter("",1);				
+					oTable.fnFilter("",2);
+					oTable.fnFilter("",3);
+				}
+				else {
+					oTable.fnFilter(selectedValue, column); // filter the fund table
+					oTable.fnFilter("",2);
+					oTable.fnFilter("",3);
+				}
+			}
+			else if (obj.id == "fundcategory") {
+				var selectedValue = obj.options[obj.selectedIndex].value; //get the selected value 
+				//alert("selected value for sub fund ::"+selectedValue );
+				//If selected value is the heading (contains ...) than show all
+				if(selectedValue.indexOf("...") != -1) {
+					oTable.fnFilter("",2);
+					oTable.fnFilter("",3);
+				}
+				else {
+					oTable.fnFilter(selectedValue, 2); // filter the fund table
+					oTable.fnFilter("",3);
+				}
+			}
+			else if (obj.id == "fundregion") {
+				var selectedValue = obj.options[obj.selectedIndex].value; //get the selected value  
+				//If selected value is the heading (contains ...) than show all
+				if(selectedValue.indexOf("...") != -1) {					
+					oTable.fnFilter("",3);
+				}
+				else {
+					oTable.fnFilter(selectedValue, column); // filter the fund table
+				}
+			}			
+		}
+	}
+	
+	/*
+     * Purpose:  Search fund table on fund name or ISIN
+ 		* Inputs:   String : searchString - user provided search string          
+ 		*/
+	function searchFundTable(searchString) {
+
+ 		if (searchString != null) {			 				
+ 			// Clear the filters if the string is empty, both name and ISIN column
+ 			if (searchString.length == 0) {
+				oTable.fnFilter(searchString, 0); 
+				oTable.fnFilter(searchString, 4); 
+			}
+
+			// If the searchstring is 4 or longer, determine if name or ISIN and filter on the 
+			// corresponding column. 
+ 			else if (searchString.length >= 4) {
+				var column = 0;						
+				var ISINpattern = /[a-zA-Z]{2}[0-9]{2}/; 
+				if(ISINpattern.test(searchString)) {
+					column = 4;						
+				}
+				oTable.fnFilter(searchString, column); // filter the fund table
+			}
+		}
+	}			
+
+	function fnShowHide( iCol )
+	{
+		/* Get the DataTables object again - this is not a recreation, just a get of the object */
+		var oTable = $('#page').dataTable();
+		
+		var bVis = oTable.fnSettings().aoColumns[iCol].bVisible;
+		oTable.fnSetColumnVis( iCol, bVis ? false : true );
+	}			
+</script>	
+				
+			<!-- SS_END_SNIPPET(fragment15,Fund_Table)-->
+  	
+	</body></html>

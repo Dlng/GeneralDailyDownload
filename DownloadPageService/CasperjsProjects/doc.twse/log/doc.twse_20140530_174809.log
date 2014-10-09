@@ -1,0 +1,27 @@
+[
+    "$(ItemPath)",
+    "E",
+    "A00025",
+    103,
+    "aaa.txt",
+    "201401_A00025_E24_4.pdf",
+    "201401_A00025_E25_4.pdf",
+    "201404_A00025_E08_4.pdf",
+    "201404_A00025_E09_4.pdf",
+    "201404_A00025_E10_4.pdf",
+    "C:\\Users\\vzhao1\\AppData\\Local\\Temp\\tmpB635.tmp"
+]
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=E&year=A00025&month=&mtype=$(ItemPath)&, HTTP GET
+[debug] [phantom] Navigation requested: url=http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=E&year=A00025&month=&mtype=$(ItemPath)&, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=E&year=A00025&month=&mtype=$(ItemPath)&"
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=E&year=A00025&month=&mtype=$(ItemPath)& (HTTP 200)
+[debug] [phantom] Capturing page to C:/Program Files (x86)/IIS Express/doc.t57sb01.01.png
+[error] [phantom] Failed to save screenshot to C:/Program Files (x86)/IIS Express/doc.t57sb01.01.png; please check permissions
+TypeError: 'null' is not an object (evaluating 'rowsOnPage.length')
+  D:/MyWorkshop/cas-commonservice/DownloadPageService/CasperjsProjects/doc.twse/doc.t57sb01.js:64
+  C:/Program Files (x86)/Casperjs/modules/casper.js:1558 in runStep
+  C:/Program Files (x86)/Casperjs/modules/casper.js:399 in checkStep

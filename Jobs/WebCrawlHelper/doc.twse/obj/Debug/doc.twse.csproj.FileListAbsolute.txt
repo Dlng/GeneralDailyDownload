@@ -1,0 +1,14 @@
+D:\Work\MyCode\WebCrawlHelper\doc.twse\bin\Debug\doc.twse.exe.config
+D:\Work\MyCode\WebCrawlHelper\doc.twse\bin\Debug\doc.twse.exe.manifest
+D:\Work\MyCode\WebCrawlHelper\doc.twse\bin\Debug\doc.twse.application
+D:\Work\MyCode\WebCrawlHelper\doc.twse\bin\Debug\doc.twse.exe
+D:\Work\MyCode\WebCrawlHelper\doc.twse\bin\Debug\doc.twse.pdb
+D:\Work\MyCode\WebCrawlHelper\doc.twse\bin\Debug\LibCurlNet.dll
+D:\Work\MyCode\WebCrawlHelper\doc.twse\obj\Debug\doc.twse.DocDownloadWnd.resources
+D:\Work\MyCode\WebCrawlHelper\doc.twse\obj\Debug\doc.twse.Options.resources
+D:\Work\MyCode\WebCrawlHelper\doc.twse\obj\Debug\doc.twse.Properties.Resources.resources
+D:\Work\MyCode\WebCrawlHelper\doc.twse\obj\Debug\doc.twse.csproj.GenerateResource.Cache
+D:\Work\MyCode\WebCrawlHelper\doc.twse\obj\Debug\doc.twse.exe.manifest
+D:\Work\MyCode\WebCrawlHelper\doc.twse\obj\Debug\doc.twse.application
+D:\Work\MyCode\WebCrawlHelper\doc.twse\obj\Debug\doc.twse.exe
+D:\Work\MyCode\WebCrawlHelper\doc.twse\obj\Debug\doc.twse.pdb

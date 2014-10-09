@@ -1,0 +1,7 @@
+D:\Work\MyCode\WebCrawlHelper\TaskSchedulerHelper\bin\Debug\TaskSchedulerHelper.exe.config
+D:\Work\MyCode\WebCrawlHelper\TaskSchedulerHelper\bin\Debug\TaskSchedulerHelper.exe
+D:\Work\MyCode\WebCrawlHelper\TaskSchedulerHelper\bin\Debug\TaskSchedulerHelper.pdb
+D:\Work\MyCode\WebCrawlHelper\TaskSchedulerHelper\obj\Debug\TaskSchedulerHelper.Properties.Resources.resources
+D:\Work\MyCode\WebCrawlHelper\TaskSchedulerHelper\obj\Debug\TaskSchedulerHelper.csproj.GenerateResource.Cache
+D:\Work\MyCode\WebCrawlHelper\TaskSchedulerHelper\obj\Debug\TaskSchedulerHelper.exe
+D:\Work\MyCode\WebCrawlHelper\TaskSchedulerHelper\obj\Debug\TaskSchedulerHelper.pdb

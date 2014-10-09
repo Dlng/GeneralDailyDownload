@@ -1,0 +1,9 @@
+[
+    "E",
+    "A00025",
+    103,
+    "201401_A00025_E24_4.pdf;201401_A00025_E25_4.pdf",
+    "C:\\Users\\vzhao1\\AppData\\Local\\Temp\\tmp4CDE.tmp",
+    ">d:\\casper.log"
+]
+Usage: $ casperjs doc.t57sb01.js type(E/D) companyid(A00037) year(103) docfilter(nofilter|file1;file2;...) resultfilename

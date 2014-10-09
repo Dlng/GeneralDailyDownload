@@ -1,0 +1,4 @@
+D:\Work\MyCode\WebCrawlHelper\packages\bin\Debug\packages.dll
+D:\Work\MyCode\WebCrawlHelper\packages\bin\Debug\packages.pdb
+D:\Work\MyCode\WebCrawlHelper\packages\obj\Debug\packages.dll
+D:\Work\MyCode\WebCrawlHelper\packages\obj\Debug\packages.pdb

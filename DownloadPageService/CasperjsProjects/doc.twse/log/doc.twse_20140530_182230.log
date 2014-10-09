@@ -1,0 +1,58 @@
+[
+    "E",
+    "A00025",
+    103,
+    "201401_A00025_E24_4.pdf;201401_A00025_E25_4.pdf;201404_A00025_E08_4.pdf;201404_A00025_E09_4.pdf;201404_A00025_E10_4.pdf",
+    "C:\\Users\\vzhao1\\AppData\\Local\\Temp\\tmp8018.tmp"
+]
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&, HTTP GET
+[debug] [phantom] Navigation requested: url=http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&"
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+[debug] [phantom] Capturing page to C:/Program Files (x86)/IIS Express/doc.t57sb01.01.png
+[error] [phantom] Failed to save screenshot to C:/Program Files (x86)/IIS Express/doc.t57sb01.01.png; please check permissions
+rowsOnPage: 45
+"201401_A00025_E24_4.pdf"
+"201401_A00025_E25_4.pdf"
+"201404_A00025_E08_4.pdf"
+"201404_A00025_E09_4.pdf"
+"201404_A00025_E10_4.pdf"
+download links: 5
+[info] [phantom] Step anonymous 3/3: done in 7332ms.
+[info] [phantom] Step returnlist 4/10 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+[info] [phantom] Step returnlist 4/10: done in 7332ms.
+[info] [phantom] Step _step 5/10 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+[info] [phantom] Step _step 5/10: done in 7352ms.
+[info] [phantom] wait() finished waiting for 3000ms.
+  
+[debug] [phantom] Mouse event 'mousedown' on selector: xpath selector: //a[text()="201401_A00025_E24_4.pdf"]
+[debug] [phantom] Mouse event 'mouseup' on selector: xpath selector: //a[text()="201401_A00025_E24_4.pdf"]
+[debug] [phantom] Mouse event 'click' on selector: xpath selector: //a[text()="201401_A00025_E24_4.pdf"]
+"201401_A00025_E24_4.pdf"
+[info] [phantom] Step _step 6/11 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+[info] [phantom] Step _step 6/11: done in 10365ms.
+[info] [phantom] waitFor() finished in 980ms.
+[info] [phantom] Step fine 7/12 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+[info] [phantom] Step fine 7/12: done in 11366ms.
+[info] [phantom] Step _step 8/15 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+[info] [phantom] Step _step 8/15: done in 11385ms.
+[debug] [phantom] Successfully injected Casper client-side utilities
+[info] [phantom] Step anonymous 9/15 http://doc.twse.com.tw/server-java/t57sb01 (HTTP 200)
+Popup url: http://doc.twse.com.tw/server-java/t57sb01
+Popup title: 鹿q陇l赂锚庐脝卢d赂脽搂@路~
+PDF Link: /pdf/201401_A00025_E24_4_20140530_180551.pdf
+popups.length: 1
+[info] [phantom] Step anonymous 9/15: done in 11409ms.
+[info] [phantom] Step _step 10/15: done in 11426ms.
+[info] [phantom] Step _step 11/15 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+[info] [phantom] Step _step 11/15: done in 11445ms.
+[info] [phantom] wait() finished waiting for 3000ms.
+  
+[debug] [phantom] Mouse event 'mousedown' on selector: xpath selector: //a[text()="201401_A00025_E25_4.pdf"]
+[debug] [phantom] Mouse event 'mouseup' on selector: xpath selector: //a[text()="201401_A00025_E25_4.pdf"]
+[debug] [phantom] Mouse event 'click' on selector: xpath selector: //a[text()="201401_A00025_E25_4.pdf"]
+"201401_A00025_E25_4.pdf"

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="doc.twse.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="doc_twse_DownloadPageService_DownloadPageAPI" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://mshkrm01/DownloadPageService/DownloadPageAPI.asmx</Value>
+    </Setting>
+    <Setting Name="CompanyList" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">A00009:統一;A00015:瑞銀;A00017:德信;A00027:宏利;A00035:未來資產;A00037:國泰;A00040:德銀遠東;A00042:施羅德;A00043:華頓;A00044:惠理康和;A00048:合庫巴黎</Value>
+    </Setting>
+    <Setting Name="DownloadFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SelectedCompany" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

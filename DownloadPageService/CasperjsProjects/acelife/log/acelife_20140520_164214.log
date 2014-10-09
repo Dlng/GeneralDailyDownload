@@ -1,0 +1,46 @@
+[
+    16,
+    "C:\\Users\\vzhao1\\AppData\\Local\\Temp\\tmp2E31.tmp"
+]
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 5 steps
+[debug] [phantom] opening url: http://www.acelife.com.hk/en/ace_fund-prices/index.aspx, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.acelife.com.hk/en/ace_fund-prices/index.aspx, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.acelife.com.hk/en/ace_fund-prices/riskWarn.aspx, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.acelife.com.hk/en/ace_fund-prices/riskWarn.aspx"
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step _step 3/5 http://www.acelife.com.hk/en/ace_fund-prices/riskWarn.aspx (HTTP 200)
+[info] [phantom] Step _step 3/5: done in 2745ms.
+[info] [phantom] waitFor() finished in 41ms.
+[info] [phantom] Step agreePage 4/6 http://www.acelife.com.hk/en/ace_fund-prices/riskWarn.aspx (HTTP 200)
+[debug] [phantom] Capturing page to C:/Program Files (x86)/IIS Express/acelife1.png
+[error] [phantom] Failed to save screenshot to C:/Program Files (x86)/IIS Express/acelife1.png; please check permissions
+[debug] [phantom] Mouse event 'mousedown' on selector: #btnAgree
+[debug] [phantom] Mouse event 'mouseup' on selector: #btnAgree
+[debug] [phantom] Mouse event 'click' on selector: #btnAgree
+[info] [phantom] Step agreePage 4/6: done in 2875ms.
+[info] [phantom] Step _step 5/6 http://www.acelife.com.hk/en/ace_fund-prices/riskWarn.aspx (HTTP 200)
+[info] [phantom] Step _step 5/6: done in 2876ms.
+[debug] [phantom] Navigation requested: url=http://www.acelife.com.hk/en/ace_fund-prices/riskWarn.aspx, type=FormSubmitted, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.acelife.com.hk/en/ace_fund-prices/index.aspx, type=FormSubmitted, willNavigate=true, isMainFrame=true
+[info] [phantom] wait() finished waiting for 5000ms.
+[debug] [phantom] url changed to "http://www.acelife.com.hk/en/ace_fund-prices/index.aspx"
+[debug] [phantom] Successfully injected Casper client-side utilities
+[info] [phantom] Step _step 6/6 http://www.acelife.com.hk/en/ace_fund-prices/index.aspx (HTTP 200)
+[info] [phantom] Step _step 6/6: done in 12562ms.
+[info] [phantom] waitFor() finished in 42ms.
+[info] [phantom] Step listPage 7/7 http://www.acelife.com.hk/en/ace_fund-prices/index.aspx (HTTP 200)
+[debug] [phantom] Capturing page to C:/Program Files (x86)/IIS Express/acelife2.png
+[error] [phantom] Failed to save screenshot to C:/Program Files (x86)/IIS Express/acelife2.png; please check permissions
+[info] [phantom] Step listPage 7/7: done in 12706ms.
+[info] [phantom] Step _step 8/8 http://www.acelife.com.hk/en/ace_fund-prices/index.aspx (HTTP 200)
+[info] [phantom] Step _step 8/8: done in 12707ms.
+[debug] [phantom] Navigation requested: url=http://www.acelife.com.hk/en/ace_fund-prices/index.aspx, type=FormSubmitted, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.acelife.com.hk/en/ace_fund-prices/index.aspx"
+[debug] [phantom] Successfully injected Casper client-side utilities
+[info] [phantom] wait() finished waiting for 5000ms.
+[debug] [phantom] Capturing page to C:/Program Files (x86)/IIS Express/acelife4.png
+[error] [phantom] Failed to save screenshot to C:/Program Files (x86)/IIS Express/acelife4.png; please check permissions
+[info] [phantom] Done 8 steps in 17746ms
+ErrorCode: 105

@@ -1,0 +1,12 @@
+[
+    "E",
+    "A00025",
+    103,
+    "nofilter",
+    "C:\\Users\\vzhao1\\AppData\\Local\\Temp\\tmpFA27.tmp"
+]
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&, HTTP GET
+[debug] [phantom] Navigation requested: url=http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&"

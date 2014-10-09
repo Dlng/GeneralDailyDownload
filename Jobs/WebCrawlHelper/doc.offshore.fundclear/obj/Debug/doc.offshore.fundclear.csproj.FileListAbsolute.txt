@@ -1,0 +1,5 @@
+D:\Work\MyCode\WebCrawlHelper\doc.offshore.fundclear\bin\Debug\doc.offshore.fundclear.exe.config
+D:\Work\MyCode\WebCrawlHelper\doc.offshore.fundclear\bin\Debug\doc.offshore.fundclear.exe
+D:\Work\MyCode\WebCrawlHelper\doc.offshore.fundclear\bin\Debug\doc.offshore.fundclear.pdb
+D:\Work\MyCode\WebCrawlHelper\doc.offshore.fundclear\obj\Debug\doc.offshore.fundclear.exe
+D:\Work\MyCode\WebCrawlHelper\doc.offshore.fundclear\obj\Debug\doc.offshore.fundclear.pdb

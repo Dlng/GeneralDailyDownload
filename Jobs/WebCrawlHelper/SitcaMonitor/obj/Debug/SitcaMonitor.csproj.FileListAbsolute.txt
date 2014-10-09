@@ -1,0 +1,16 @@
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\SitcaMonitor.exe.config
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\SitcaMonitor.exe
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\SitcaMonitor.pdb
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\WebCrawCommon.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\MorningstarAWD.Common.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\EPPlus.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\bin\Debug\WebCrawCommon.pdb
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\obj\Debug\SitcaMonitor.csprojResolveAssemblyReference.cache
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\obj\Debug\SitcaMonitor.exe
+D:\Work\MyCode\WebCrawlHelper\SitcaMonitor\obj\Debug\SitcaMonitor.pdb

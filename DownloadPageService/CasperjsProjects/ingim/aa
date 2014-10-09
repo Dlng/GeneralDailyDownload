@@ -1,0 +1,839 @@
+<Pages><Page id='1'><table class="sortable" id="page" style="width: 898px; ">
+			<thead>	
+				<!-- empty header row to get extra space between header and first row --> 
+				
+				<tr id="textheader"><th class="fund ui-state-default" rowspan="1" colspan="1" style="width: 426px; "><div class="DataTables_sort_wrapper">Fund<span class="css_right ui-icon ui-icon-triangle-1-n"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 63px; "><div class="DataTables_sort_wrapper">filter1<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 136px; "><div class="DataTables_sort_wrapper">filter2<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 127px; "><div class="DataTables_sort_wrapper">filter3<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 86px; "><div class="DataTables_sort_wrapper">isin<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="val ui-state-default" rowspan="1" colspan="1" style="width: 65px; "><div class="DataTables_sort_wrapper">Currency<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="price ui-state-default" rowspan="1" colspan="1" style="width: 76px; "><div class="DataTables_sort_wrapper">Price<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="datum ui-state-default" rowspan="1" colspan="1" style="width: 72px; "><div class="DataTables_sort_wrapper">Date<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="type ui-state-default" rowspan="1" colspan="1" style="width: 99px; "><div class="DataTables_sort_wrapper">Type<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr><tr class="emptyheader" id="emptyheader"><th class="fund" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="val" rowspan="1" colspan="1"></th><th class="price" rowspan="1" colspan="1"></th><th class="datum" rowspan="1" colspan="1"></th><th class="type" rowspan="1" colspan="1"></th></tr>				
+			</thead>
+					<tbody><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0370038324');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Alternative Beta (P Cap)</td>
+							<td class="hidden">Alternatives</td>	
+							<td class="hidden">-</td>						
+							<td class="hidden">-</td>
+						<td class="hidden">LU0370038324</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">263.19</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Alternative</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0051129079');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Asia ex Japan High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Emerging Markets</td>						
+							<td class="hidden">Asia</td>
+						<td class="hidden">LU0051129079</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">1035.11</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0119198637');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Banking and Insurance (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Sector</td>						
+							<td class="hidden">Banking and Insurance</td>
+						<td class="hidden">LU0119198637</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">611.58</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0121172307');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Banking and Insurance (X Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Sector</td>						
+							<td class="hidden">Banking and Insurance</td>
+						<td class="hidden">LU0121172307</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">572.51</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0300631982');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Emerging Markets High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Emerging Markets</td>
+						<td class="hidden">LU0300631982</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">246.44</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0430557719');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Emerging Markets High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Emerging Markets</td>
+						<td class="hidden">LU0430557719</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">106.65</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0799828818');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Emerging Markets High Dividend (X Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Emerging Markets</td>
+						<td class="hidden">LU0799828818</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">61.08</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0127786431');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Euro High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Euro</td>
+						<td class="hidden">LU0127786431</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">452.15</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0430558014');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Euro High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Euro</td>
+						<td class="hidden">LU0430558014</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">110.54</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0205350837');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Europe High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Europe</td>
+						<td class="hidden">LU0205350837</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">383.38</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0082087510');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest European Equity (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Core</td>						
+							<td class="hidden">European Equity</td>
+						<td class="hidden">LU0082087510</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">50.76</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0113304017');" class="even">
+						<td class="fund sorting_1">ING (L) Invest European Equity (X Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Core</td>						
+							<td class="hidden">European Equity</td>
+						<td class="hidden">LU0113304017</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">47.28</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0146257711');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Global High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Global</td>
+						<td class="hidden">LU0146257711</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">351.95</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0205422503');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Global High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Global</td>
+						<td class="hidden">LU0205422503</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">467.49</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0430558790');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Global High Dividend (P Dis)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Global</td>
+						<td class="hidden">LU0430558790</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">130.39</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0146259923');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Global High Dividend (X Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">Global</td>
+						<td class="hidden">LU0146259923</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">330.96</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr></tbody></table></Page><Page id='2'><table class="sortable" id="page" style="width: 898px; ">
+			<thead>	
+				<!-- empty header row to get extra space between header and first row --> 
+				
+				<tr id="textheader"><th class="fund ui-state-default" rowspan="1" colspan="1" style="width: 426px; "><div class="DataTables_sort_wrapper">Fund<span class="css_right ui-icon ui-icon-triangle-1-n"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 63px; "><div class="DataTables_sort_wrapper">filter1<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 136px; "><div class="DataTables_sort_wrapper">filter2<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 127px; "><div class="DataTables_sort_wrapper">filter3<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 86px; "><div class="DataTables_sort_wrapper">isin<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="val ui-state-default" rowspan="1" colspan="1" style="width: 65px; "><div class="DataTables_sort_wrapper">Currency<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="price ui-state-default" rowspan="1" colspan="1" style="width: 76px; "><div class="DataTables_sort_wrapper">Price<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="datum ui-state-default" rowspan="1" colspan="1" style="width: 72px; "><div class="DataTables_sort_wrapper">Date<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="type ui-state-default" rowspan="1" colspan="1" style="width: 99px; "><div class="DataTables_sort_wrapper">Type<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr><tr class="emptyheader" id="emptyheader"><th class="fund" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="val" rowspan="1" colspan="1"></th><th class="price" rowspan="1" colspan="1"></th><th class="datum" rowspan="1" colspan="1"></th><th class="type" rowspan="1" colspan="1"></th></tr>				
+			</thead>
+					<tbody><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0430559095');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Global Opportunities (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Global and Opportunistic</td>						
+							<td class="hidden">Global Opportunities</td>
+						<td class="hidden">LU0430559095</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">155.02</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0250158358');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Global Opportunities (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Global and Opportunistic</td>						
+							<td class="hidden">Global Opportunities</td>
+						<td class="hidden">LU0250158358</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">344.99</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0250181095');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Global Real Estate (P Cap)</td>
+							<td class="hidden">Real Estate</td>	
+							<td class="hidden">Global</td>						
+							<td class="hidden">-</td>
+						<td class="hidden">LU0250181095</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">407.95</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0577848145');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Global Real Estate (P Cap)</td>
+							<td class="hidden">Real Estate</td>	
+							<td class="hidden">Global</td>						
+							<td class="hidden">-</td>
+						<td class="hidden">LU0577848145</td>							
+      					<td class="val">SGD</td>
+ 							<td class="price">13.85</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0119216801');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Greater China (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Emerging Markets</td>						
+							<td class="hidden">Asia</td>
+						<td class="hidden">LU0119216801</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">945.59</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0082087783');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Japan (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Core</td>						
+							<td class="hidden">Japan</td>
+						<td class="hidden">LU0082087783</td>							
+      					<td class="val">JPY</td>
+ 							<td class="price">3850.00</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0113305683');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest Japan (X Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Core</td>						
+							<td class="hidden">Japan</td>
+						<td class="hidden">LU0113305683</td>							
+      					<td class="val">JPY</td>
+ 							<td class="price">3573.00</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0051128774');" class="even">
+						<td class="fund sorting_1">ING (L) Invest Latin America (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Emerging Markets</td>						
+							<td class="hidden">Latin America</td>
+						<td class="hidden">LU0051128774</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">2352.10</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0082087940');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest US (Enhanced Core Concentrated) (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Core</td>						
+							<td class="hidden">US</td>
+						<td class="hidden">LU0082087940</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">99.85</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0214494824');" class="even">
+						<td class="fund sorting_1">ING (L) Invest US High Dividend (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">High Dividend</td>						
+							<td class="hidden">US</td>
+						<td class="hidden">LU0214494824</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">434.43</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0119219730');" class="odd">
+						<td class="fund sorting_1">ING (L) Invest World (P Cap)</td>
+							<td class="hidden">Equity</td>	
+							<td class="hidden">Core</td>						
+							<td class="hidden">World</td>
+						<td class="hidden">LU0119219730</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">207.12</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Equity</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0577847170');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Asian Debt (Hard Currency) (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Asian Debt</td>
+						<td class="hidden">LU0577847170</td>							
+      					<td class="val">SGD</td>
+ 							<td class="price">12.60</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546914168');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Asian Debt (Hard Currency) (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Asian Debt</td>
+						<td class="hidden">LU0546914168</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">1746.26</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546914242');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Asian Debt (Hard Currency) (X Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Asian Debt</td>
+						<td class="hidden">LU0546914242</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">1637.67</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546914754');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Dollar (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Aggregate</td>						
+							<td class="hidden">Investment grade</td>
+						<td class="hidden">LU0546914754</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">1119.13</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0577846446');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Hard Currency) (P Cap Hedged)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Hard Currency</td>
+						<td class="hidden">LU0577846446</td>							
+      					<td class="val">SGD</td>
+ 							<td class="price">10.14</td>
+ 							 
+								
+						<td class="datum">1/2/2013</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr></tbody></table></Page><Page id='3'><table class="sortable" id="page" style="width: 898px; ">
+			<thead>	
+				<!-- empty header row to get extra space between header and first row --> 
+				
+				<tr id="textheader"><th class="fund ui-state-default" rowspan="1" colspan="1" style="width: 426px; "><div class="DataTables_sort_wrapper">Fund<span class="css_right ui-icon ui-icon-triangle-1-n"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 63px; "><div class="DataTables_sort_wrapper">filter1<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 136px; "><div class="DataTables_sort_wrapper">filter2<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 127px; "><div class="DataTables_sort_wrapper">filter3<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="hidden ui-state-default" rowspan="1" colspan="1" style="width: 86px; "><div class="DataTables_sort_wrapper">isin<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="val ui-state-default" rowspan="1" colspan="1" style="width: 65px; "><div class="DataTables_sort_wrapper">Currency<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="price ui-state-default" rowspan="1" colspan="1" style="width: 76px; "><div class="DataTables_sort_wrapper">Price<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="datum ui-state-default" rowspan="1" colspan="1" style="width: 72px; "><div class="DataTables_sort_wrapper">Date<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="type ui-state-default" rowspan="1" colspan="1" style="width: 99px; "><div class="DataTables_sort_wrapper">Type<span class="css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr><tr class="emptyheader" id="emptyheader"><th class="fund" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="hidden" rowspan="1" colspan="1"></th><th class="val" rowspan="1" colspan="1"></th><th class="price" rowspan="1" colspan="1"></th><th class="datum" rowspan="1" colspan="1"></th><th class="type" rowspan="1" colspan="1"></th></tr>				
+			</thead>
+					<tbody><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546915058');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Hard Currency) (P Cap Hedged)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Hard Currency</td>
+						<td class="hidden">LU0546915058</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">4718.19</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546915215');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Hard Currency) (X Cap Hedged)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Hard Currency</td>
+						<td class="hidden">LU0546915215</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">4566.40</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546916379');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Local Currency) (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Local Currency</td>
+						<td class="hidden">LU0546916379</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">60.66</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0577845711');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Emerging Markets Debt (Local Currency) (P Cap) Hedged</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Emerging Markets Debt</td>						
+							<td class="hidden">Local Currency</td>
+						<td class="hidden">LU0577845711</td>							
+      					<td class="val">SGD</td>
+ 							<td class="price">9.73</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546917773');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Euro (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Aggregate</td>						
+							<td class="hidden">Investment grade</td>
+						<td class="hidden">LU0546917773</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">515.63</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546916619');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Euromix Bond (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Government</td>						
+							<td class="hidden">-</td>
+						<td class="hidden">LU0546916619</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">170.70</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546916882');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund Euromix Bond (X Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Government</td>						
+							<td class="hidden">-</td>
+						<td class="hidden">LU0546916882</td>							
+      					<td class="val">EUR</td>
+ 							<td class="price">168.29</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0529383092');" class="even">
+						<td class="fund sorting_1">ING (L) Renta Fund Europe High Yield (I Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Credit</td>						
+							<td class="hidden">High Yield</td>
+						<td class="hidden">LU0529383092</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">5743.54</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr><tr onclick="openPage('/SG/Funds/InnerFund/index.htm?fundid=LU0546920488');" class="odd">
+						<td class="fund sorting_1">ING (L) Renta Fund US Credit (P Cap)</td>
+							<td class="hidden">Fixed Income</td>	
+							<td class="hidden">Credit</td>						
+							<td class="hidden">Corporate USD</td>
+						<td class="hidden">LU0546920488</td>							
+      					<td class="val">USD</td>
+ 							<td class="price">1213.80</td>
+ 							 
+								
+						<td class="datum">24-07-14</td>
+												
+						
+						
+						
+						
+						
+    						    					    					
+													
+						<td class="type">Fixed Income</td>											
+					</tr></tbody></table></Page></Pages>

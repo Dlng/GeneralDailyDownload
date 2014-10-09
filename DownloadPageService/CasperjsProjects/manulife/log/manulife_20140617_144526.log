@@ -1,0 +1,26 @@
+[
+    1,
+    "C:\\Users\\vzhao1\\AppData\\Local\\Temp\\tmp9A33.tmp"
+]
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=1&buid=1, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=1&buid=1, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] Navigation requested: url=http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail?catId=1&locale=en, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail?catId=1&locale=en"
+[debug] [phantom] Navigation requested: url=http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINDB1NgMjI09_NxdDA080rMCjMw8_IwNxAP1w_CqzEJMDE1dDTwMjTItDd1cDTzyzMzCPQ2TDU3AhdgbsxWIGjj4VliIexR5gBVIEBDuBooF-QnR0EAPQ1gmU!/dl5/d5/L0lDU1EvUU5RSy80SlNFL2Vu/, type=Other, willNavigate=true, isMainFrame=true
+[warning] [phantom] Loading resource failed with status=fail (HTTP 200): http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINDB1NgMjI09_NxdDA080rMCjMw8_IwNxAP1w_CqzEJMDE1dDTwMjTItDd1cDTzyzMzCPQ2TDU3AhdgbsxWIGjj4VliIexR5gBVIEBDuBooF-QnR0EAPQ1gmU!/dl5/d5/L0lDU1EvUU5RSy80SlNFL2Vu/
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] url changed to "http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINDB1NgMjI09_NxdDA080rMCjMw8_IwNxAP1w_CqzEJMDE1dDTwMjTItDd1cDTzyzMzCPQ2TDU3AhdgbsxWIGjj4VliIexR5gBVIEBDuBooF-QnR0EAPQ1gmU!/dl5/d5/L0lDU1EvUU5RSy80SlNFL2Vu/"
+[debug] [phantom] Navigation requested: url=http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINDB1NgMjI09_NxdDA080rMCjMw8_IwNxAP1w_CqzEJMDE1dDTwMjTItDd1cDTzyzMzCPQ2TDU3AhdgbsxWIGjj4VliIexR5gBVIEBDuBooB-cmqdfkJ0dZOGoqAgAsxfevQ!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_01A41A42IGEOE0A0S3EDN81020/act/id=0/p=javax.servlet.include.path_info=QCPpagesQCPcommonQCPothersGroupNavigation.xhtml/264262218545/=/#Z7_01A41A42IGEOE0A0S3EDN81020, type=FormSubmitted, willNavigate=true, isMainFrame=true
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] url changed to "http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINDB1NgMjI09_NxdDA080rMCjMw8_IwNxAP1w_CqzEJMDE1dDTwMjTItDd1cDTzyzMzCPQ2TDU3AhdgbsxWIGjj4VliIexR5gBVIEBDuBooB-cmqdfkJ0dZOGoqAgAsxfevQ!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_01A41A42IGEOE0A0S3EDN81020/act/id=0/p=javax.servlet.include.path_info=QCPpagesQCPcommonQCPothersGroupNavigation.xhtml/264262218545/=/#Z7_01A41A42IGEOE0A0S3EDN81020"
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step _step 3/3 http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINDB1NgMjI09_NxdDA080rMCjMw8_IwNxAP1w_CqzEJMDE1dDTwMjTItDd1cDTzyzMzCPQ2TDU3AhdgbsxWIGjj4VliIexR5gBVIEBDuBooB-cmqdfkJ0dZOGoqAgAsxfevQ!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_01A41A42IGEOE0A0S3EDN81020/act/id=0/p=javax.servlet.include.path_info=QCPpagesQCPcommonQCPothersGroupNavigation.xhtml/264262218545/=/#Z7_01A41A42IGEOE0A0S3EDN81020 (HTTP 200)
+[info] [phantom] Step _step 3/3: done in 2265ms.
+[info] [phantom] waitFor() finished in 40ms.
+[info] [phantom] Step listPage 4/4 http://www.manulife.com.hk/wps/portal/pwshome/dfp/detail/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOINDB1NgMjI09_NxdDA080rMCjMw8_IwNxAP1w_CqzEJMDE1dDTwMjTItDd1cDTzyzMzCPQ2TDU3AhdgbsxWIGjj4VliIexR5gBVIEBDuBooB-cmqdfkJ0dZOGoqAgAsxfevQ!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_01A41A42IGEOE0A0S3EDN81020/act/id=0/p=javax.servlet.include.path_info=QCPpagesQCPcommonQCPothersGroupNavigation.xhtml/264262218545/=/#Z7_01A41A42IGEOE0A0S3EDN81020 (HTTP 200)
+listPage in.
+[info] [phantom] Step listPage 4/4: done in 2327ms.
+[info] [phantom] Done 4 steps in 2345ms

@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dailydownload>
+  <project name="acelife" description="ACELife - price data" >
+    <tasks>
+      <task name="WealthMaster_Variable_Universal_Life">
+        <downloadpage call="casperjs">
+          <projectname>acelife</projectname>
+          <scriptname>acelife.js</scriptname>
+          <parastr>41</parastr>
+          <url>http://www.acelife.com.hk/en/ace_fund-prices/index.aspx</url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id='fundListTable']/tbody/tr[1]/th">
+            <column emptyheader="true"></column>
+            <column>Investment Options</column>
+            <column>As of</column>
+            <column>Sell (USD)</column>
+            <column>Buy (USD)</column>
+          </table>
+        </validation>
+        <transfertemplate>acelife.xslt</transfertemplate>
+        <output>ACELIFE_WealthMaster_Variable_Universal_Life.csv</output>
+      </task>
+
+      <task name="Partner_Investment_Select_Plan">
+        <downloadpage call="casperjs">
+          <projectname>acelife</projectname>
+          <scriptname>acelife.js</scriptname>
+          <parastr>16</parastr>
+          <url>http://www.acelife.com.hk/en/ace_fund-prices/index.aspx</url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id='fundListTable']/tbody/tr[1]/th">
+            <column emptyheader="true"></column>
+            <column>Investment Options</column>
+            <column>As of</column>
+            <column>Sell (USD)</column>
+            <column>Buy (USD)</column>
+          </table>
+        </validation>
+        <transfertemplate>acelife.xslt</transfertemplate>
+        <output>ACELIFE_Partner_Investment_Select_Plan.csv</output>
+      </task>
+
+      <task name="WealthLink_Investment">
+        <downloadpage call="casperjs">
+          <projectname>acelife</projectname>
+          <scriptname>acelife.js</scriptname>
+          <parastr>42</parastr>
+          <url>http://www.acelife.com.hk/en/ace_fund-prices/index.aspx</url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id='fundListTable']/tbody/tr[1]/th">
+            <column emptyheader="true"></column>
+            <column>Investment Options</column>
+            <column>As of</column>
+            <column>Sell (USD)</column>
+            <column>Buy (USD)</column>
+          </table>
+        </validation>
+        <transfertemplate>acelife.xslt</transfertemplate>
+        <output>ACELIFE_WealthLink_Investment.csv</output>
+      </task>
+
+      <task name="WealthLink_Investment_2">
+        <downloadpage call="casperjs">
+          <projectname>acelife</projectname>
+          <scriptname>acelife.js</scriptname>
+          <parastr>38</parastr>
+          <url>http://www.acelife.com.hk/en/ace_fund-prices/index.aspx</url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id='fundListTable']/tbody/tr[1]/th">
+            <column emptyheader="true"></column>
+            <column>Investment Options</column>
+            <column>As of</column>
+            <column>Sell (USD)</column>
+            <column>Buy (USD)</column>
+          </table>
+        </validation>
+        <transfertemplate>acelife.xslt</transfertemplate>
+        <output>ACELIFE_WealthLink_Investment_2.csv</output>
+      </task>
+
+      <task name="WealthLink_Investment_Pro">
+        <downloadpage call="casperjs">
+          <projectname>acelife</projectname>
+          <scriptname>acelife.js</scriptname>
+          <parastr>47</parastr>
+          <url>http://www.acelife.com.hk/en/ace_fund-prices/index.aspx</url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id='fundListTable']/tbody/tr[1]/th">
+            <column emptyheader="true"></column>
+            <column>Investment Options</column>
+            <column>As of</column>
+            <column>Sell (USD)</column>
+            <column>Buy (USD)</column>
+          </table>
+        </validation>
+        <transfertemplate>acelife.xslt</transfertemplate>
+        <output>ACELIFE_WealthLink_Investment_Pro.csv</output>
+      </task>
+
+    </tasks>
+    <email>
+      <subject>ACElife daily price - General Daily Download</subject>
+      <mailto>nav@morningstareurope.com;funddata@morningstar.com;HKSZDataAudit@morningstar.com</mailto>
+      <mailcc>garfield.ge@morningstar.com;van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - ACElife daily price - General Daily Download</subject>
+      <mailto>garfield.ge@morningstar.com;Weilong.Wu@morningstar.com;lulu.guo@morningstar.com;</mailto>
+      <mailcc>Van.Zhao@morningstar.com;qing.zhou@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+
+    <!--<triggers>
+        <scheduleTrigger time="4:20" buildCondition="ForceBuild" name="Scheduled"/>
+      </triggers>-->
+  </project >
+
+  <project name="manulife" discription="Manulife daily price" >
+    <tasks>
+      <!--For acessing the url, please replace &amp; with &-->
+      <task name="Flexible Investment Protector">
+        <downloadpage call="casperjs">
+          <projectname>manulife</projectname>
+          <scriptname>manulife.js</scriptname>
+          <parastr>1</parastr>
+          <url>
+            http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=1&amp;buid=1
+            categoryId=1
+          </url>
+          <!--
+          for this site specificly: 1. only first two tables are required
+                                    2. start from the fourth item
+                                    viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:datatable1
+                                    viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:datatable1
+                                    viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:datatable1
+          -->
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id = 'viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:datatable1']/thead/tr/th">
+            <column >Code</column>
+            <column>Investment Choice Name</column>
+            <column>As Of Date</column>
+            <column>NAV / Unit</column>
+            <column>Purchase Price</column>
+            <column>Launch  Price &amp; Date</column>
+            <column>More Details</column>
+          </table>
+        </validation>
+        <transfertemplate>manulife_1.xslt</transfertemplate>
+        <output>MANULIFE_CATID1.csv</output>
+      </task>
+
+      <task name="ManuSelect Investment Protector">
+        <downloadpage call="casperjs">
+          <projectname>manulife</projectname>
+          <scriptname>manulife.js</scriptname>
+          <parastr>2</parastr>
+          <url>
+            http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=2&amp;buid=1
+            categoryId=2
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id = 'viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:datatable1']/thead/tr/th">
+            <column >Code</column>
+            <column>Investment Choice Name</column>
+            <column>As Of Date</column>
+            <column>NAV / Unit</column>
+            <column>Purchase Price</column>
+            <column>Launch  Price &amp; Date</column>
+            <column>More Details</column>
+          </table>
+        </validation>
+
+        <!--three tables-->
+        <transfertemplate>manulife_2.xslt</transfertemplate>
+        <output>MANULIFE_CATID2.csv</output>
+      </task>
+
+      <task name="Matrix">
+        <downloadpage call="casperjs">
+          <projectname>manulife</projectname>
+          <scriptname>manulife.js</scriptname>
+          <parastr>3</parastr>
+          <url>
+            http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=3&amp;buid=1
+            categoryId=3
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id = 'viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:datatable1']/thead/tr/th">
+            <column >Code</column>
+            <column>Investment Choice Name</column>
+            <column>As Of Date</column>
+            <column>NAV / Unit</column>
+            <column>Launch  Price &amp; Date</column>
+            <column>More Details</column>
+          </table>
+
+        </validation>
+        <!--four tables-->
+        <transfertemplate>manulife_3_5_11.xslt</transfertemplate>
+        <output>MANULIFE_CATID3.csv</output>
+      </task>
+
+      <task name="Manulife Investment Solutions">
+        <downloadpage call="casperjs">
+          <projectname>manulife</projectname>
+          <scriptname>manulife.js</scriptname>
+          <parastr>5</parastr>
+          <url>
+            http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=5&amp;buid=2
+            categoryId=5
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id = 'viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:datatable1']/thead/tr/th">
+            <column >Code</column>
+            <column>Investment Choice Name</column>
+            <column>As Of Date</column>
+            <column>NAV / Unit</column>
+            <column>Launch  Price &amp; Date</column>
+            <column>More Details</column>
+          </table>
+        </validation>
+        <!--four tables-->
+        <transfertemplate>manulife_3_5_11.xslt</transfertemplate>
+        <output>MANULIFE_CATID5.csv</output>
+      </task>
+
+      <task name="Manulife Secure IncomePlus">
+        <downloadpage call="casperjs">
+          <projectname>manulife</projectname>
+          <scriptname>manulife.js</scriptname>
+          <parastr>6</parastr>
+          <url>
+            http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=6&amp;buid=2
+            categoryId=6
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id = 'viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:othersInternal']/thead/tr/th">
+            <column >Code</column>
+            <column>Investment Choice Name</column>
+            <column>As Of Date</column>
+            <column>NAV / Unit</column>
+            <column>Launch  Price &amp; Date</column>
+            <column>More Details</column>
+          </table>
+        </validation>
+        <!--one table-->
+        <transfertemplate>manulife_6.xslt</transfertemplate>
+        <output>MANULIFE_CATID6.csv</output>
+
+      </task>
+      <task name="Alpha">
+        <downloadpage call="casperjs">
+          <projectname>manulife</projectname>
+          <scriptname>manulife.js</scriptname>
+          <parastr>11</parastr>
+          <url>
+            http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=11&amp;buid=1
+            categoryId=11
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id = 'viewns_Z7_01A41A42IGEOE0A0S3EDN81020_:mainContent:datatable1']/thead/tr/th">
+            <column >Code</column>
+            <column>Investment Choice Name</column>
+            <column>As Of Date</column>
+            <column>NAV / Unit</column>
+            <column>Launch  Price &amp; Date</column>
+            <column>More Details</column>
+          </table>
+        </validation>
+        <!--four tables-->
+        <transfertemplate>manulife_3_5_11.xslt</transfertemplate>
+        <output>MANULIFE_CATID11.csv</output>
+      </task>
+
+    </tasks>
+    <email>
+      <subject>Manulife daily price - General Daily Download</subject>
+      <mailto>nav@morningstareurope.com;funddata@morningstar.com;HKSZDataAudit@morningstar.com</mailto>
+      <mailcc>garfield.ge@morningstar.com;van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - Manulife daily price - General Daily Download</subject>
+      <mailto>garfield.ge@morningstar.com;Weilong.Wu@morningstar.com;lulu.guo@morningstar.com;</mailto>
+      <mailcc>Van.Zhao@morningstar.com;qing.zhou@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+
+  <project name="sunlife" description="SUNLife - price data" >
+    <tasks>
+      <task name="SUN_LIFE_FUTURE">
+        <downloadpage call="casperjs">
+          <projectname>sunlife</projectname>
+          <scriptname>sunlife.js</scriptname>
+          <parastr>SunFuture</parastr>
+          <url>
+            http://www.sunlife.com.hk/hongkong/Information+Centre/Fund+prices+%26+performance/Investment-linked+insurance+plans/SunFuture?vgnLocale=en_CA
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@class='data-sheet'][1]/thead/tr[1]/th">
+            <column>Investment-linked Fund Name</column>
+            <column>Fund Code</column>
+            <column>Offer / Bid Price</column>
+            <column>Factsheet</column>
+            <column>Past Price</column>
+          </table>
+        </validation>
+        <transfertemplate>sunlife.xslt</transfertemplate>
+        <output>SUN_LIFE_FUTURE.csv</output>
+      </task>
+
+      <task name="SUN_LIFE_WEALTH">
+        <downloadpage call="casperjs">
+          <projectname>sunlife</projectname>
+          <scriptname>sunlife.js</scriptname>
+          <parastr>SunWealth</parastr>
+          <url>
+            http://www.sunlife.com.hk/hongkong/Information+Centre/Fund+prices+%26+performance/Investment-linked+insurance+plans/SunWealth?vgnLocale=en_CA
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@class='data-sheet'][1]/thead/tr[1]/th">
+            <column>Investment-linked Fund Name</column>
+            <column>Fund Code</column>
+            <column>Offer / Bid Price</column>
+            <column>Factsheet</column>
+            <column>Past Price</column>
+          </table>
+        </validation>
+        <transfertemplate>sunlife.xslt</transfertemplate>
+        <output>SUN_LIFE_WEALTH.csv</output>
+      </task>
+
+      <task name="SUN_LIFE_ANNUITY">
+        <downloadpage call="casperjs">
+          <projectname>sunlife</projectname>
+          <scriptname>sunlife.js</scriptname>
+          <parastr>ANNUITY_100_Retirement_Plan</parastr>
+          <url>
+            http://www.sunlife.com.hk/hongkong/Information+Centre/Fund+prices+%26+performance/Investment-linked+insurance+plans/ANNUITY+100+Retirement+Plan?vgnLocale=en_CA
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@class='data-sheet'][1]/thead/tr[1]/th">
+            <column>Investment-linked Fund Name</column>
+            <column>Fund Code</column>
+            <column>Unit Price</column>
+            <column>Factsheet</column>
+            <column>Past Price</column>
+          </table>
+        </validation>
+        <transfertemplate>sunlife.xslt</transfertemplate>
+        <output>SUN_LIFE_ANNUITY.csv</output>
+      </task>
+
+      <task name="SUN_LIFE_FORTUNE">
+        <downloadpage call="casperjs">
+          <projectname>sunlife</projectname>
+          <scriptname>sunlife.js</scriptname>
+          <parastr>FORTUNE</parastr>
+          <url>
+            http://www.sunlife.com.hk/hongkong/Information+Centre/Fund+prices+%26+performance/Investment-linked+insurance+plans/FORTUNE?vgnLocale=en_CA
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@class='data-sheet'][1]/thead/tr[1]/th">
+            <column>Investment-linked Fund Name</column>
+            <column>Fund Code</column>
+            <column>Unit Price#</column>
+            <column>Factsheet</column>
+            <column>Past Price</column>
+          </table>
+        </validation>
+        <transfertemplate>sunlife.xslt</transfertemplate>
+        <output>SUN_LIFE_FORTUNE.csv</output>
+      </task>
+
+      <task name="SUN_LIFE_RAINBOW">
+        <downloadpage call="casperjs">
+          <projectname>sunlife</projectname>
+          <scriptname>sunlife.js</scriptname>
+          <parastr>Rainbow</parastr>
+          <url>
+            http://www.sunlife.com.hk/hongkong/Information+Centre/Fund+prices+%26+performance/Investment-linked+insurance+plans/Rainbow+Saver_Rainbow+Investor?vgnLocale=en_CA
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@class='data-sheet'][1]/thead/tr[1]/th">
+            <column>Investment-linked Fund Name</column>
+            <column>Fund Code</column>
+            <column>Bid Price</column>
+            <column>Offer Price</column>
+            <column>Factsheet</column>
+            <column>Past Price</column>
+          </table>
+        </validation>
+        <transfertemplate>sunlife.xslt</transfertemplate>
+        <output>SUN_LIFE_RAINBOW.csv</output>
+      </task>
+
+      <task name="SUN_LIFE_STAR">
+        <downloadpage call="casperjs">
+          <projectname>sunlife</projectname>
+          <scriptname>sunlife.js</scriptname>
+          <parastr>Star</parastr>
+          <url>
+            http://www.sunlife.com.hk/hongkong/Information+Centre/Fund+prices+%26+performance/Investment-linked+insurance+plans/Star+Select+Investment+Plan?vgnLocale=en_CA
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@class='data-sheet'][1]/thead/tr[1]/th">
+            <column>Investment-linked Fund Name</column>
+            <column>Fund Code</column>
+            <column>Bid Price</column>
+            <column>Offer Price</column>
+            <column>Factsheet</column>
+            <column>Past Price</column>
+          </table>
+        </validation>
+        <transfertemplate>sunlife.xslt</transfertemplate>
+        <output>SUN_LIFE_STAR.csv</output>
+      </task>
+      <task name="SUN_LIFE_FORTUNE_BUILDER">
+        <downloadpage call="casperjs">
+          <projectname>sunlife</projectname>
+          <scriptname>sunlife.js</scriptname>
+          <parastr>FORTUNE_Builder</parastr>
+          <url>
+            http://www.sunlife.com.hk/hongkong/Information+Centre/Fund+prices+%26+performance/Investment-linked+insurance+plans/FORTUNE+builder?vgnLocale=en_CA
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@class='data-sheet'][1]/thead/tr[1]/th">
+            <column>Investment-linked Fund Name</column>
+            <column>Fund Code</column>
+            <column>Buy Price</column>
+            <column>Sell Price</column>
+            <column>Factsheet</column>
+            <column>Past Price</column>
+          </table>
+        </validation>
+        <transfertemplate>sunlife1.xslt</transfertemplate>
+        <output>sunlife_FORTUNE+builder.csv</output>
+      </task>
+    </tasks>
+
+    <email>
+      <subject>Sunlife daily price - General Daily Download</subject>
+      <mailto>nav@morningstareurope.com;funddata@morningstar.com;HKSZDataAudit@morningstar.com</mailto>
+      <mailcc>garfield.ge@morningstar.com;van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - Sunlife daily price - General Daily Download</subject>
+      <mailto>garfield.ge@morningstar.com;Weilong.Wu@morningstar.com;lulu.guo@morningstar.com;</mailto>
+      <mailcc>Van.Zhao@morningstar.com;qing.zhou@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+
+  <project name="axa" discription="Axa daily price" >
+    <tasks>
+      <task name="axa">
+        <downloadpage call="casperjs">
+          <projectname>axa</projectname>
+          <scriptname>axa.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://www.axa-affin.com/124/en/fund-updates/fund-prices/introduction
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@class = 'tblPrice']/descendant::tr[@class='section' and position()=1]/td">
+            <column>Fund</column>
+            <column>Bid Price(RM)</column>
+            <column>Offer Price(RM)</column>
+            <column>Nav per unit(RM)</column>
+          </table>
+        </validation>
+        <!--four tables-->
+        <transfertemplate>axa.xslt</transfertemplate>
+        <output>AXAAFFIN.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>AXA daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - AXA daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+
+
+  <project name="massmutual" discription="Massmutual daily price" >
+    <!--strToBeOmitted="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">-->
+    <tasks>
+
+      <task name="massmutual">
+        <downloadpage call="casperjs">
+          <projectname>massmutual</projectname>
+          <scriptname>massmutual.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://corp.massmutualasia.com/en/Invest/FLEXI-Series/Investment-Unit-Prices.aspx
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id = 'reportTable']/descendant::tr[@class='blue_large_table_top']/descendant::td[not(@class)]">
+            <column>Code▲</column>
+            <column>Investment Choice Name</column>
+            <column>Valuation Date</column>
+            <column>Bid Price</column>
+            <column>Offer Price</column>
+            <column>Date Opened</column>
+          </table>
+        </validation>
+        <transfertemplate>massmutual.xslt</transfertemplate>
+        <output>MASSMUTUAL.csv</output>
+      </task>
+
+      <task name="massmutual_search">
+        <downloadpage call="casperjs">
+          <projectname>massmutual</projectname>
+          <scriptname>massmutual_search.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://corp.massmutualasia.com/en/Invest/Premier-Choice-Series/Search.aspx
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table[@id ='reportTable']/descendant::tr[@class = 'reportTitle whitebluelargetabletop']/descendant::div[@class='padding']">
+            <column>Code▲</column>
+            <column>Asset Type▲</column>
+            <column>Investment Choice Name▲</column>
+            <column>Valuation Date</column>
+            <column>Bid / Offer Price(USD)</column>
+            <column>Underlying Fund Fact SheetViewPrint</column>
+          </table>
+        </validation>
+        <transfertemplate>massmutual_search.xslt</transfertemplate>
+        <output>MASSMUTUAL_SEARCH.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>Massmutual daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - Massmutual daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+
+  <project name="avia_lifetrack" discription="AVIVA_LIFETRACK daily price" >
+    <tasks>
+      <task name="avia_lifetrack">
+        <downloadpage call="casperjs">
+          <projectname>avia_lifetrack</projectname>
+          <scriptname>AVIVA_LIFETRACK.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://www.aviva-asia.com/cfmappscf/hk/en/FloatingRate/fundprices_lifetrack_details.cfm
+          </url>
+        </downloadpage>
+        <validation>
+     
+          <table xpath="//table[@id='fundprices']/thead/tr/th">
+            <column>Investment-Linked Fund Name</column>          
+            <column>Valuation Date</column>
+            <column>Bid Price</column>
+            <column>Offer Price</column>
+            <column>Investment-linked Fund Fact Sheet</column>
+            <column>Investment-linked Fund History</column>
+          </table>
+
+        </validation>
+        <transfertemplate>avia_lifetrack.xslt</transfertemplate>
+        <output>AVIVA_LIFETRACK.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>AVIVA_LIFETRACK daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - AVIVA_LIFETRACK daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+  
+
+  <project name="mcis_zurich" discription="MCIS_ZURICH daily price" >
+    <tasks>
+      <task name="mcis_zurich">
+        <downloadpage call="casperjs">
+          <projectname>mcis_zurich</projectname>
+          <scriptname>MCIS_ZURICH.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://www.mciszurich.com.my/ilink/bottom.asp
+          </url>
+        </downloadpage>
+        <validation>
+        
+          <table xpath="//table[@cellpadding ='3']/descendant::tr[position()=1]/td">
+            <column>FUND</column>
+            <column>BID PRICE</column>
+            <column>OFFER\n        PRICE</column>
+            <column>NAVPS</column>
+            <column>PRICE DATE</column>
+          </table>
+
+        </validation>
+        <transfertemplate>mcis_zurich.xslt</transfertemplate>
+        <output>MCIS_ZURICH.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>MCIS_ZURICH daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - MCIS_ZURICH daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+
+  <project name="cigna" discription="CIGNA daily price" >
+    <tasks>
+      <task name="cigna">
+        <downloadpage call="casperjs">
+          <projectname>cigna</projectname>
+          <scriptname>CIGNA.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://www.cigna.com.hk/CIGNA/fund_information/index.do?lang=en_US
+          </url>
+        </downloadpage>
+        <validation>
+
+          <table xpath="//table[@class = 'infoTable formsList']/descendant::tr[position() = 2]/descendant::th">
+            <column>Fund</column>
+            <column>Valuation Date</column>
+            <column>Unit Price (US$)</column>
+          </table>
+
+        </validation>
+        <transfertemplate>cigna.xslt</transfertemplate>
+        <output>CIGNA.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>CIGNA daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - CIGNA daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+  <project name="cmi_insurance" discription="CMI_INSURANCE daily price" >
+    <tasks>
+      <task name="cmi_insurance">
+        <downloadpage call="casperjs">
+          <projectname>cmi_insurance</projectname>
+          <scriptname>CMI_INSURANCE.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://www.hke.clerical-medical.com/hkcon/fund_prices/fund_prices.asp
+          </url>
+        </downloadpage>
+        <validation>
+
+          <table xpath="//table[@class = 'TableWithBorder']/descendant::tr[@class='TableHeader']/descendant::td">
+            <column>Fund name</column>
+            <column>Currency</column>
+            <column>Fund number</column>
+            <column>Bid Price</column>
+            <column>Offer Price</column>
+          </table>
+
+        </validation>
+        <transfertemplate>cmi_insurance.xslt</transfertemplate>
+        <output>CMI_INSURANCE.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>CMI_INSURANCE daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - CMI_INSURANCE daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+  <project name="prudential_assurance" discription="PRUDENTIAL_ASSURANCE daily price" >
+    <tasks>
+      <task name="prudential_assurance">
+        <downloadpage call="casperjs">
+          <projectname>prudential_assurance</projectname>
+          <scriptname>PRUDENTIAL_ASSURANCE.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://www2.prudential.com.my/fundpriceV2/daily.php
+          </url>
+        </downloadpage>
+        <validation>
+
+          <table xpath="//table[@class = 'daily']/descendant::tr[@class='tableHeader' and position() = 1]/td">
+            <column>Fund Name</column>
+            <column>Unit Price (RM)</column>
+            <column>Valuation Date</column>
+            <column>Changes</column>
+            <column> </column>
+          </table>
+
+        </validation>
+        <transfertemplate>prudential_assurance.xslt</transfertemplate>
+        <output>PRUDENTIAL_ASSURANCE.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>PRUDENTIAL_ASSURANCE daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - PRUDENTIAL_ASSURANCE daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+
+
+  
+  <project name="prudential_bsn" discription="PRUDENTIAL_BSN daily price" >
+    <tasks>
+      <task name="prudential_bsn1">
+        <downloadpage call="casperjs">
+          <projectname>prudential_bsn</projectname>
+          <scriptname>PRUDENTIAL_BSN1.js</scriptname>
+          <parastr></parastr>
+          <url>
+            https://www.prubsn.com.my/xml/fundprices.xml
+          </url>
+        </downloadpage>
+        <validation>
+
+        </validation>
+        <transfertemplate>prudential_bsn1.xslt</transfertemplate>
+        <output>PRUDENTIAL_BSN1.csv</output>
+      </task>
+
+      <task name="prudential_bsn2">
+        <downloadpage call="casperjs">
+          <projectname>prudential_bsn</projectname>
+          <scriptname>PRUDENTIAL_BSN2.js</scriptname>
+          <parastr></parastr>
+          <url>
+            https://www.prubsn.com.my/xml/fundprices2.xml
+          </url>
+        </downloadpage>
+        <validation>
+
+        </validation>
+        <transfertemplate>prudential_bsn2.xslt</transfertemplate>
+        <output>PRUDENTIAL_BSN2.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>PRUDENTIAL_BSN daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - PRUDENTIAL_BSN daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+  
+  <project name="takaful" discription="TAKAFUL_MALAYSIA daily price" >
+    <tasks>
+      <task name="takaful_malaysia">
+        <downloadpage call="casperjs">
+          <projectname>takaful</projectname>
+          <scriptname>TAKAFUL_MALAYSIA.js</scriptname>
+          <parastr></parastr>
+          <url>
+            http://www.takaful-malaysia.com.my/_layouts/Applications/Saham/Saham.aspx?lang=en-US
+          </url>
+        </downloadpage>
+        <validation>
+
+          <table xpath="//table[@class = 'contentTextTable']/descendant::tr[position() = 1]/td">
+            <column>Fund</column>
+            <column>Unit Price RM</column>
+            <column>Prices as of</column>
+          </table>
+
+        </validation>
+        <transfertemplate>takaful_malaysia.xslt</transfertemplate>
+        <output>TAKAFUL_MALAYSIA.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>TAKAFUL daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - TAKAFUL daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+  <project name="aia" discription="AIADIRECT daily price" >
+    <tasks>
+      <task name="aia_unitPrice">
+        <downloadpage call="casperjs">
+          <projectname>aia</projectname>
+          <scriptname>aia_unitPrice.js</scriptname>
+          <parastr></parastr>
+          <url>
+            https://www.aiadirect.com.my/agent/unitprice.asp
+          </url>
+        </downloadpage>
+        <validation>
+          <table xpath="//table/descendant::table[position()=1]/descendant::th[@class='tableHdr']">
+            <column>No</column>
+            <column>Fund Name</column>
+            <column>Buy/ Sell/ NAV* (RM)</column>
+          </table>
+        </validation>
+        <transfertemplate>aia_unitPrice.xslt</transfertemplate>
+        <output>AMERICAN.csv</output>
+      </task>
+    </tasks>
+    <email>
+      <subject>AIADIRECT daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </email>
+    <errorreport>
+      <subject>Error Report - AIADIRECT daily price - General Daily Download</subject>
+      <mailto>Weilong.Wu@morningstar.com;garfield.ge@morningstar.com;</mailto>
+      <mailcc>van.zhao@morningstar.com</mailcc>
+    </errorreport>
+    <runLog>
+      <type>5</type>
+    </runLog>
+  </project>
+
+ 
+
+</dailydownload>
+

@@ -1,0 +1,8 @@
+[
+    1,
+    "C:\\Users\\vzhao1\\AppData\\Local\\Temp\\tmp6E11.tmp"
+]
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=1&buid=1, HTTP GET
+[debug] [phantom] Navigation requested: url=http://www.manulife.com.hk/_layouts/manulifedfp/en/FundList.aspx?fundcatid=1&buid=1, type=Other, willNavigate=true, isMainFrame=true

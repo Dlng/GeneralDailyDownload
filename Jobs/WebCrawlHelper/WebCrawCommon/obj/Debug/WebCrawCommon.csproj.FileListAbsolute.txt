@@ -1,0 +1,14 @@
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\WebCrawCommon.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\WebCrawCommon.pdb
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\EPPlus.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\ICSharpCode.SharpZipLib.DLL
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\bin\Debug\MorningstarAWD.Common.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\obj\Debug\WebCrawCommon.dll
+D:\Work\MyCode\WebCrawlHelper\WebCrawCommon\obj\Debug\WebCrawCommon.pdb

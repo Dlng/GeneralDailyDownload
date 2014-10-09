@@ -1,0 +1,72 @@
+[
+    "E",
+    "A00025",
+    103,
+    "aaa.txt",
+    "201401_A00025_E24_4.pdf",
+    "201401_A00025_E25_4.pdf",
+    "201404_A00025_E08_4.pdf",
+    "201404_A00025_E09_4.pdf",
+    "201404_A00025_E10_4.pdf",
+    "C:\\Users\\vzhao1\\AppData\\Local\\Temp\\tmp9E.tmp"
+]
+[info] [phantom] Starting...
+[info] [phantom] Running suite: 3 steps
+[debug] [phantom] opening url: http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&, HTTP GET
+[debug] [phantom] Navigation requested: url=http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&, type=Other, willNavigate=true, isMainFrame=true
+[debug] [phantom] url changed to "http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E&"
+[debug] [phantom] Successfully injected Casper client-side utilities
+[debug] [phantom] start page is loaded
+[info] [phantom] Step anonymous 3/3 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+[debug] [phantom] Capturing page to C:/Program Files (x86)/IIS Express/doc.t57sb01.01.png
+[error] [phantom] Failed to save screenshot to C:/Program Files (x86)/IIS Express/doc.t57sb01.01.png; please check permissions
+rowsOnPage: 45
+"201401_A00025_E02_4.pdf"
+"201401_A00025_E03_3.pdf"
+"201401_A00025_E03_4.pdf"
+"201401_A00025_E03_9.pdf"
+"201401_A00025_E04_4.pdf"
+"201401_A00025_E07_4.pdf"
+"201401_A00025_E08_4.pdf"
+"201401_A00025_E09_4.pdf"
+"201401_A00025_E10_4.pdf"
+"201401_A00025_E16_4.pdf"
+"201401_A00025_E21_4.pdf"
+"201401_A00025_E22_4.pdf"
+"201401_A00025_E23_4.pdf"
+"201401_A00025_E24_4.pdf"
+"201401_A00025_E25_4.pdf"
+"201401_A00025_E26_4.pdf"
+"201401_A00025_E27_4.pdf"
+"201401_A00025_E28_4.pdf"
+"201401_A00025_E30_4.pdf"
+"201401_A00025_E31_4.pdf"
+"201401_A00025_E32_4.pdf"
+"201401_A00025_E33_4.pdf"
+"201404_A00025_E02_4.pdf"
+"201404_A00025_E03_4.pdf"
+"201404_A00025_E04_4.pdf"
+"201404_A00025_E07_4.pdf"
+"201404_A00025_E08_4.pdf"
+"201404_A00025_E09_4.pdf"
+"201404_A00025_E10_4.pdf"
+"201404_A00025_E16_4.pdf"
+"201404_A00025_E21_4.pdf"
+"201404_A00025_E21_9.pdf"
+"201404_A00025_E22_4.pdf"
+"201404_A00025_E22_9.pdf"
+"201404_A00025_E23_4.pdf"
+"201404_A00025_E24_4.pdf"
+"201404_A00025_E25_4.pdf"
+"201404_A00025_E25_9.pdf"
+"201404_A00025_E27_4.pdf"
+"201404_A00025_E28_4.pdf"
+"201404_A00025_E30_4.pdf"
+"201404_A00025_E31_4.pdf"
+"201404_A00025_E32_4.pdf"
+"201404_A00025_E33_4.pdf"
+"201404_A00025_E34_1.pdf"
+download links: 45
+[info] [phantom] Step anonymous 3/3: done in 2209ms.
+[info] [phantom] Step returnlist 4/50 http://doc.twse.com.tw/server-java/t57sb01?step=1&colorchg=1&co_id=A00025&year=103&month=&mtype=E& (HTTP 200)
+Unable to open file 'aaa.txt'
